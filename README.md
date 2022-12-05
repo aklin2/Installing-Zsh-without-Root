@@ -44,7 +44,7 @@ zsh - used 5.9
 
 https://www.zsh.org/pub/
 
-ncurses
+ncurses - used 6.1
 
 https://invisible-island.net/ncurses/
 
