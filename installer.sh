@@ -113,6 +113,9 @@ sleep 10
 ## https://github.com/romkatv/powerlevel10k
 echo ">> Downloading and Installing the powerlevel10k theme for Oh My Zsh"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-echo "ZSH_THEME=$ZSH_CUSTOM/themes/powerlevel10k" >>~/.zshrc
+# Replace the default ZSH_THEME="robbyrusselll" with ZSH_THEME="powerlevel10k/powerlevel10k"
+sed -i 's|robbyrussell|powerlevel10k/powerlevel10k|g' .zshrc
 echo ">> DONE!!!"
 sleep 5
+
+robbyrussell
