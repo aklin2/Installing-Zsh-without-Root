@@ -11,7 +11,7 @@ Probably needs some cleaning up, but it should work, else ping @aklin2 (alan) to
 
 Run zsh by just doing `zsh` - and it should give you a powerlevel10k configuration prompt.
 
-If not, just run p10k in zsh shell.
+If not, just run `p10k configure` in zsh shell.
 
 You may want to install some of the official fonts.
 
