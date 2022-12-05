@@ -6,6 +6,19 @@ Use the installer.sh
 You should also read it before runnning it.
 Probably needs some cleaning up, but it should work, else ping @aklin2 (alan) to fix it.
 
+
+### AFTER INSTALLING
+
+Run zsh by just doing `zsh` - and it should give you a powerlevel10k configuration prompt.
+
+If not, just run p10k in zsh shell.
+
+You may want to install some of the official fonts.
+
+See this for more details:
+
+https://github.com/romkatv/powerlevel10k#fonts
+
 ### Useful references:
 
 Built this entirely off of this page:
