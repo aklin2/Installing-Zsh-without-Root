@@ -34,7 +34,7 @@ fi
 ## STEP 2. Install a shell manager (since you are not root)
 # Download the ncurses gzipped tarball
 echo ">>Downloading ncurses - a shell manager, useful if you do not have root accesss"
-curl https://invisible-island.net/archives/ncurses/ncurses-6.1.tar.gz -o $/software/ncurses-6.1.tar.gz
+curl https://invisible-island.net/archives/ncurses/ncurses-6.1.tar.gz -o $software/ncurses-6.1.tar.gz
 echo ">> Downloaded ncurses"
 sleep 10
 echo ">> Installing ncurses..."
